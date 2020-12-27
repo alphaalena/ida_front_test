@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
+button {
+  border: none;
+  background-color: #1F1F1F;
+  padding-bottom: 14px;
+  padding-top: 14px;
+  color: white;
+  font-size: 16px;
+  line-height: 21px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: #4E5562;
+    cursor: auto;
+  }
+}
